@@ -3,12 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Corporate Gifts</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Plant Decor</title>
+
+    <!-- Raisonne Font -->
+    <link
+      href="https://db.onlinewebfonts.com/c/05d0872c73920fc4541caa9c7950f686?family=Raisonne+DemiBold"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <!-- Navigation -->
     <header class="header">
-      <div class="logo">plantscape</div>
+      <div class="logo">
+        <a class="logo-text" href="index.html">plantscape</a>
+      </div>
       <nav class="nav-links">
         <a class="nav-link" href="plants.html">Plants</a>
         <a class="nav-link" href="care-tools.html">Care Tools</a>
@@ -16,11 +38,257 @@
         <a class="nav-link" href="learn.html">Learn</a>
         <a class="nav-link" href="corporate-gifts.html">Corporate Gifts</a>
       </nav>
+      <div class="nav-icons">
+        <a href="#" class="icon-link" id="search-button">
+          <i class="fas fa-search"></i>
+        </a>
+        <a href="#" class="icon-link"><i class="fas fa-user"></i></a>
+        <a href="#" class="icon-link cart-icon" id="cart-button">
+          <i class="fas fa-shopping-cart"></i>
+          <span id="cart-count">0</span>
+        </a>
+      </div>
     </header>
 
-    <main style="padding: 60px; text-align: center">
-      <h1>Corporate Gifting Solutions 🏢</h1>
-      <p>Green gifts that make a lasting impression.</p>
-    </main>
+    <!-- Most Gifted -->
+    <section class="most-gifted">
+      <div class="section-header">
+        <h2>New Arrivals</h2>
+        <a href="#" class="shop-all">SHOP ALL</a>
+      </div>
+
+      <div class="product-list">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="badge">25% OFF</div>
+          <img src="Assets/Plant4.png" alt="Cat Palm" />
+          <div class="product-info">
+            <h3>Cat Palm</h3>
+            <p class="price">$169 – $199 <span class="size">XL</span></p>
+            <div class="rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>35 Reviews</span>
+            </div>
+            <a href="#" class="add-to-cart"
+              ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+            >
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="badge">25% OFF</div>
+          <img src="Assets/Plant3.png" alt="Money Tree" />
+          <div class="product-info">
+            <h3>Money Tree</h3>
+            <p class="price">$169 – $199 <span class="size">XL</span></p>
+            <div class="rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>53 Reviews</span>
+            </div>
+            <a href="#" class="add-to-cart"
+              ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+            >
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img src="Assets/Plant2.png" alt="Tough Stuff Collection" />
+          <div class="product-info">
+            <h3>Tough Stuff Collection</h3>
+            <p class="price">
+              <s>$117</s> $79 <span class="size">XS, BUNDLES</span>
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>52 Reviews</span>
+            </div>
+            <a href="#" class="add-to-cart"
+              ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+            >
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="badge bestseller">BESTSELLER</div>
+          <img src="Assets/Plant1.png" alt="Neon Prayer" />
+          <div class="product-info">
+            <h3>Neon Prayer</h3>
+            <p class="price">$47 <span class="size">XS</span></p>
+            <div class="rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>27 Reviews</span>
+            </div>
+            <a href="#" class="add-to-cart"
+              ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="most-gifted">
+      <div class="section-header">
+        <h2>Most Gifted</h2>
+        <a href="#" class="shop-all">SHOP ALL</a>
+      </div>
+
+      <div class="product-list">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="badge">25% OFF</div>
+          <img src="Assets/Plant1.jpg" alt="Cat Palm" />
+          <div class="product-info">
+            <h3>Cat Palm</h3>
+            <p class="price">$169 – $199 <span class="size">XL</span></p>
+            <div class="rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>35 Reviews</span>
+            </div>
+            <a href="#" class="add-to-cart"
+              ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+            >
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="badge">25% OFF</div>
+          <img src="Assets/Plant2.jpg" alt="Money Tree" />
+          <div class="product-info">
+            <h3>Money Tree</h3>
+            <p class="price">$169 – $199 <span class="size">XL</span></p>
+            <div class="rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>53 Reviews</span>
+            </div>
+            <a href="#" class="add-to-cart"
+              ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+            >
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img src="Assets/Plant3.jpg" alt="Tough Stuff Collection" />
+          <div class="product-info">
+            <h3>Tough Stuff Collection</h3>
+            <p class="price">
+              <s>$117</s> $79 <span class="size">XS, BUNDLES</span>
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>52 Reviews</span>
+            </div>
+            <a href="#" class="add-to-cart"
+              ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+            >
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="badge bestseller">BESTSELLER</div>
+          <img src="Assets/Plant4.jpg" alt="Neon Prayer" />
+          <div class="product-info">
+            <h3>Neon Prayer</h3>
+            <p class="price">$47 <span class="size">XS</span></p>
+            <div class="rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>27 Reviews</span>
+            </div>
+            <a href="#" class="add-to-cart"
+              ><i class="fas fa-shopping-cart"></i> Add to Cart</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <h5>STAY IN THE LOOP</h5>
+          <p>
+            Stay in the loop with special offers, plant-parenting tips, and
+            more.
+          </p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h6>COMPANY</h6>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Our Guarantee</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h6>SUPPORT</h6>
+            <ul>
+              <li><a href="#">Help + FAQs</a></li>
+              <li><a href="#">Track Your Order</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Contact Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h6>PLANT QUESTIONS?</h6>
+            <ul>
+              <li><a href="#">Plant Care Tips</a></li>
+              <li><a href="#">Plant Life Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Side Cart -->
+    <div id="side-cart" class="side-cart">
+      <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button id="close-cart" class="close-btn">&times;</button>
+      </div>
+      <ul id="cart-items" class="cart-items-list"></ul>
+      <div class="cart-footer">
+        <p><strong>Total:</strong> $<span id="cart-total">0.00</span></p>
+      </div>
+    </div>
+
+    <!-- Search Modal -->
+    <div id="search-modal" class="search-modal">
+      <div class="search-modal-content">
+        <button id="close-search" class="close-btn">&times;</button>
+        <h2>Search</h2>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search for plants..."
+        />
+        <button class="search-submit">Search</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
